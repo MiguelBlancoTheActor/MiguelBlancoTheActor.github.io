@@ -8,6 +8,10 @@ a {
 	height: 40px;
 }
 
+#bodyContainer {
+	display: block;
+}
+
 #mainMenuContainer {
 	padding-left: 0px;
 	display: block;
@@ -57,7 +61,7 @@ a {
 
 .headerText:hover {
 	background-image: url(../src/images/div-hover-bg-light.png);
-	background-size: 120px 20px;
+	background-size: 140px 25px;
 	filter: grayscale(100%);
 }
 

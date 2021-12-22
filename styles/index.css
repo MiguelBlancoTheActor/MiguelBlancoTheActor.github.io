@@ -1,0 +1,18 @@
+#headshotOneContainer {
+	/*
+	width: 40%;
+	height: auto;
+	*/
+	display: inline;
+	padding-left: 5vw;
+}
+
+#headshotOneContainer img {
+	position: relative;
+	width: 40vw;
+	height: auto;
+}
+
+#mainPageQuote{
+	display: inline;
+}

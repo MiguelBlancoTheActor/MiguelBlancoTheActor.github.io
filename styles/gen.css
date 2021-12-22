@@ -65,6 +65,26 @@ a {
 	filter: grayscale(100%);
 }
 
+.quoteContainer p {
+	font-family: 'Raleway', sans-serif;
+}
+
+#bottomContainer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copyrightContainer {
+	width: 383px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#copyrightInfo {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 383px;
+}
+
 /*Remove when all pages are working properly*/
 .comingSoon {
 	font-family: 'Raleway', sans-serif;

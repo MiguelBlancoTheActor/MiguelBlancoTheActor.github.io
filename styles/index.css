@@ -1,18 +1,31 @@
-#headshotOneContainer {
+#headshotGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+}
+
+#mainHeadshotContainer {
 	/*
-	width: 40%;
-	height: auto;
+	padding-left: 20px;
 	*/
-	display: inline;
-	padding-left: 5vw;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#headshotOneContainer img {
-	position: relative;
-	width: 40vw;
-	height: auto;
+#mainHeadshot {
+	width: 500px;
 }
 
-#mainPageQuote{
-	display: inline;
+#mainQuoteContainer {
+	/*
+	padding-right: 20px;
+	*/
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainCreditContainer {
+	width: 78px;
+	margin-left: auto;
+	margin-right: 20px;
 }

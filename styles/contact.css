@@ -1,0 +1,13 @@
+#contactGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.contactInfo {
+	font-family: 'Raleway', sans-serif;
+}
+
+#contactHeader {
+	font-size: 2.5em;
+}

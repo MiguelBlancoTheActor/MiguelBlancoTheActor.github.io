@@ -22,6 +22,9 @@ a {
 
 #mainMenuLinks {
 	list-style-type: none;
+	width: 315px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #mainMenuLinks li {
@@ -70,11 +73,15 @@ a {
 }
 
 #bottomContainer {
+	position: relative;
+	top: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .copyrightContainer {
+	display: block;
+	padding-bottom: 20px;
 	width: 383px;
 	margin-right: auto;
 	margin-left: auto;

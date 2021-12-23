@@ -4,6 +4,10 @@
 	grid-gap: 20px;
 }
 
+#contactInfoContainer {
+	margin-left: 25px;
+}
+
 .contactInfo {
 	font-family: 'Raleway', sans-serif;
 }

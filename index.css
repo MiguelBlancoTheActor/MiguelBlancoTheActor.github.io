@@ -1,0 +1,144 @@
+/* Start of Nav Bar attributes */
+nav {
+    width: 1170px;
+    margin: auto;
+	
+}
+.navList {
+    list-style: none;
+}
+.navList li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.navList li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navList li a:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-brand:hover{
+	font-size: 25px;
+}
+/* End of NavBar Attributes */
+
+/* Content */
+.container {
+	height: 608px;
+	margin-top: 25px;
+	margin-top: 75px;
+}
+#contentHP {
+	padding-top: 175px;
+	padding-left: 100px;
+	width: 550px;
+	color: white;
+}
+#contentHP h3{
+	font-size: 28px;
+	font-weight: 650;
+	letter-spacing: .05rem;
+
+}
+/* Start of About Me attributes */
+#titleAboutMe {
+	padding: 50px;
+	text-align: center;
+}
+#titleAboutMe p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.col h5 {
+	font-size: 20px;
+	font-weight: 900;
+	padding-bottom: 5px;
+	
+}
+.col h6 {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.col h7 {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+#textAbout {
+	text-align: justify;
+}
+/* End of About Me attributes */
+
+/* Start of Contact Me attributes */
+#titleContactMe {
+	padding: 50px;
+	text-align: center;
+}
+
+#titleContactMe p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+#textContact {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/* End of Contact Me attributes */
+
+/* Start of Resume attributes */
+#titleResume {
+	padding: 50px;
+	text-align: center;
+}
+#titleResume p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+.leftTextResume {
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/* End of Resume attributes */
+
+/* Start of Copyright attributes */
+#copyrightSection {
+	background-color: black;
+	height: 100px;
+	text-align: center;
+}
+#copyrightSection p{
+	padding-top: 40px;
+	font-size: 14px;
+}
+/* End of Copyright attributes */

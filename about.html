@@ -1,79 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset = "utf-8" />
+	<meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
 	<title> About Me </title>
-	<link rel = "icon" href = "src/favicon.ico">
-	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-	
-	<link rel = "stylesheet" href = "styles/gen.css">
-	<link rel = "stylesheet" href = "styles/about.css">
+
+	<link rel = "stylesheet" href = "index.css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap java -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin = "anonymous">
+
 </head>
+<body style = "background-color: black;">
 
-<body>
+    <!-- Start of NavBar -->
 
-	<div class = "container" id = "topContainer">
-		<div class = "menuContainer" id = "mainMenuContainer">
-			<ul class = "menuLinks" id = "mainMenuLinks">
-				<li> <a href = #> About Me </a> </li>
-				<li> <a href = "contact.html"> Contact Me </a> </li>
-				<li> <a href = "resume.html"> Resume </a> </li>
-			</ul>
-		</div>
-	</div>
-	
-	<div class = "mainHeaderClass" id = "mainHeader">
-		<p class = "headerText" id = "mainHeaderText">
-			<a href = "index.html"> Miguel Blanco </a>
-		</p>
-	</div>
-	
-	
-	<div class = "container" id = "bodyContainer">
-		<!--
-		<h2 class = "comingSoon" id = "aboutMeComingSoon"> About Me ... Coming Soon </h2>
-		-->
-		
-		<div class = "gridContainer" id = "aboutMeGrid">
-		
-			<div class = "nullContainer">
-			</div>
-			
-			<div class = "aboutMeContainer" id = "aboutMeInfoContainer">
-				<p class = "aboutMeInfo" id = "aboutMeTitle">
-					Hi! I'm Miguel.
-				</p>
-				
-				<p class = "aboutMeInfo2" id = "aboutMeHeader">
-					I'm a NY based aspiring actor in college for mechanical engineering.
-				</p>
-				
-				<p class = "aboutMeInfo2" id = "genAboutMeInfo">
-					I love to tell stories, and help others tell their story, and there’s no way more satisfying than being able to bring the characters to life.
-					<br>
-					Whether that be the main character, toiling through their hardships, or just the waiter that thanks them for dining there.
-					<br>
-					As Konstantin Stanislavski said, "There are no small parts. Only small actors."
-				</p>
-			</div>
-			
-			<div class = "imageContainer" id = "secondaryHeadshotContainer">
-				<img class = "headshotImage" id = "secondaryHeadshot" src = "src/images/Headshot2.png" alt = "Second Headshot">
-			</div>
-		</div>
-	</div>
+    <nav class = "navbar navbar-expand-md container-xxl navbar-dark">
+      <div class = "container-xxl">
+        <a href = "index.html" class = "navbar-brand">
+          <span class = "fw-bold fst-italic text-light">
+            Miguel Blanco
+          </span>
+        </a>
+
+        <!-- Toggle Button for NavBar on Small Screens -->
+        <button class="navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse justify-content-end align-center" id = "main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="about.html" class="nav-link fw-light text-light">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link fw-light text-light">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="resume.html" class="nav-link fw-light text-light">Resume</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+    <!-- End of NavBar -->
+
+    <section class = "container" id = "AboutMeSection">
+      <!-- Start of About Me Section -->
+
+      <div class = "container" style = "margin-top: 0px;">
+        <div id = "titleAboutMe">
+            <p>About Me</p>
+       </div>
+
+        <div class = "row align-items-start">
+            <div class = "col-lg-6">
+             <img src = "media/miguelHeadShot2.png" alt = "" style = "width: 350px; height: 350px; border-radius: 10px; border-color: white; border-style: dashed;" class = "center">
+           </div>
+
+           <div class = "col-lg-6" style = "color: white; width: 400px;">
+              <div id = "textAbout">
+               <p class="h5 fw-bolder">Hello</p>
+               <p class="lead">I'm a NY based aspiring actor in college for mechanical engineering.</p>
+                <h7>I love to tell stories, and help others tell their story, and theres no way more satisfying than being able to bring the characters to life. Whether that be the main character, toiling through their hardships, or just the waiter that thanks them for dining there.</h7>
+                <br>
+               <br>
+               <small class="fst-italic">"There are no small parts. Only small actors." ~ Konstantin Stanislavski</small>
+             </div>
+           </div>
+        </div>
+    </div>
+    <!-- End of About Me Section -->
+    </section>
+
+    <section class = "container py-5" id = "CopyrightSection">
+      <!-- Start of CopyRight Section -->
+
+      <div class = "container-fluid" id = "copyrightSection" style = "padding-top: 75px;">
+        <p style = "color: rgb(70, 70, 70);">Copyright © 2021 Miguel Blanco. All Rights Reserved</p>
+      </div>
+  <!-- End of CopyRight Section -->
+    </section>
 </body>
-
-<footer>
-	<div class = "container" id = "bottomContainer">
-		<div class = "copyrightContainer">
-			<p id = "copyrightInfo">
-				Copyright © 2021 Miguel Blanco. All Rights Reserved
-			</p>
-		</div>
-	</div>
-</footer>
-</html>
